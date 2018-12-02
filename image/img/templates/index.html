@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link href="../../media/img/favicon.ico" mce_href="../../media/img/favicon.ico" rel="icon" type="image/x-icon">
+    <script type="text/javascript" src="../../media/js/jquery-1.11.1.min.js"></script>
+<style type="text/css">
+    body{
+        background-image: url("../../media/img/background.jpeg");
+        width: auto;
+        height: 10000px;
+    }
+
+    li{
+        list-style: none;
+        color: red;
+        float: left;
+        display: inline-block;
+    }
+    a{
+        color: white;
+        margin-right: 30px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .banner{
+        margin:50px auto 0px;
+        width: 800px;
+        height: 40px;
+    }
+    .pic{
+            width: 790px;
+            height: 340px;
+            margin: 10px auto;
+            position: relative;
+            overflow: hidden;
+        }
+        .content{
+            width: 99999px;
+            height: 340px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+
+        }
+        .content img{
+            float: left;
+        }
+        .index{
+            position: absolute;
+            left: 300px;
+            bottom: 5px;
+            width: 200px;
+            height: 20px;
+            list-style: none;
+        }
+        .index li{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            float: left;
+            margin-left: 10px;
+            background-color: rgba(100,100,100,0.3);
+        }
+
+        .left{
+            width: 30px;
+            height:50px;
+            background-color:rgba(100,100,100,0.5);
+            position: absolute;
+            left: 0px;
+            top: 150px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 20px;
+            color: #fff;
+            display: none;
+        }
+        .right{
+            width: 30px;
+            height:50px;
+            background-color:rgba(100,100,100,0.5);
+            position: absolute;
+            right: 0px;
+            top: 150px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 20px;
+            color: #fff;
+            display: none;
+        }
+        .index .first{
+            background-color: red;
+        }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>黎可爱呀</title>
+
+
+</head>
+<body>
+    <div class="banner">
+        <ul>
+            <li>
+                <a href="">写给黎敏小朋友的</a>
+            </li>
+            <li>
+                <a href="">关于黎敏的好多件小事</a>
+            </li>
+            <li>
+                <a href="">黎敏歪理集</a>
+            </li>
+            <li>
+                <a href="">美图集</a>
+            </li>
+
+        </ul>
+
+    </div>
+    <div class="pic">
+        <div class="content">
+            {% for item in imgs %}
+                <img style="width: 790px" src="../../media/img/{{ item }}" alt="">
+            {% endfor %}
+	    <img style="width: 790px" src="../../media/img/background.jpeg" alt="">
+            <img style="width: 790px" src="../../media/img/4afbfbedab64034f9380f3dfa9c379310b551d9d_tJamECq.jpg" alt="">
+            <img style="width: 790px" src="../../media/img/IMG_20181017_223424.jpg" alt="">
+            <img style="width: 790px" src="../../media/img/backgroundimage.jpeg" alt="">
+            <img style="width: 790px" src="../../media/img/background.jpeg" alt="">
+            <img style="width: 790px" src="../../media/img/favicon.ico" alt="">
+            <img style="width: 790px" src="../../media/img/back.jpeg" alt="">
+
+        </div>
+        <ul class="index">
+            <li class="first turn"></li>
+            <li class="turn"></li>
+            <li class="turn"></li>
+            <li class="turn"></li>
+            <li class="turn"></li>
+            <li class="turn"></li>
+            <li class="turn"></li>
+            <li class="turn"></li>
+        </ul>
+        <div class="right">></div>
+        <div class="left"><</div>
+    </div>
+</body>
+<script type="text/javascript">
+        $(function(){
+            //每个固定的时间移动图片
+            var timer = setInterval(picLoop,2000);
+            var index = 0;
+            function picLoop(){
+                index++;
+                if (index==8) {index=0;}
+                $(".content").animate({"left":-790*index},300);
+                $(".turn").eq(index).css("background-color","red")
+                       .siblings().css("background-color","rgba(100,100,100,0.3)");
+            }
+
+            //定时器的控制
+            $(".pic").hover(function(){
+                clearInterval(timer);
+                $(".left").show();
+                $(".right").show();
+            },function(){
+                timer = setInterval(picLoop,2000);
+                $(".left").hide();
+                $(".right").hide();
+            })
+
+            $("li").mouseover(function(){
+                $(this).css("background-color","red")
+                       .siblings().css("background-color","rgba(100,100,100,0.3)");
+                index = $(this).index();
+                $(".content").animate({"left":-790*index},300);
+
+            })
+
+            $(".left").click(function(){
+                index--;
+                if (index==-1) {index=7;}
+                $(".content").animate({"left":-790*index},300);
+                $(".turn").eq(index).css("background-color","red")
+                       .siblings().css("background-color","rgba(100,100,100,0.3)");
+            })
+            $(".right").click(function(){
+                index++;
+                if (index==8) {index=0}
+                $(".content").animate({"left":-790*index},300);
+                $(".turn").eq(index).css("background-color","red")
+                       .siblings().css("background-color","rgba(100,100,100,0.3)");
+            })
+
+
+        })
+    </script>
+</html>
+
