@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d12c977a-c355-4586-be4f-8499462b183d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/.idea/dataSources.local.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/.idea/dataSources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/.idea/dataSources/6b4a6003-2388-4782-9527-b810b671fb06.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/.idea/dataSources/6b4a6003-2388-4782-9527-b810b671fb06/storage.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/.idea/image.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/1536547895.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/1536547895_Pp7y01p.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/1536547895_RJO0zlh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/4afbfbedab64034f9380f3dfa9c379310b551d9d_3R50Gfa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/4afbfbedab64034f9380f3dfa9c379310b551d9d_Can0Kfy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/4afbfbedab64034f9380f3dfa9c379310b551d9d_YeyCOGc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/4afbfbedab64034f9380f3dfa9c379310b551d9d_aT31gam.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/4afbfbedab64034f9380f3dfa9c379310b551d9d_tJamECq.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/9D3C7658-7A29-40B1-B154-7A27680547B7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/9D3C7658-7A29-40B1-B154-7A27680547B7_PjzljHg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/IMG_20181017_223424.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/back.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/background.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/backgroundimage.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/favicon1.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/fruit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/fruit_AtL1sty.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/fruit_PG6gKUV.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/fruit_bydY4L1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/fruit_i6lHmx0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/media/img/fruit_nZWbL83.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/image.iml" afterPath="$PROJECT_DIR$/.idea/image.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/image/settings.py" afterPath="$PROJECT_DIR$/image/image/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/img/templates/index.html" afterPath="$PROJECT_DIR$/image/img/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/media/css/style.css" afterPath="$PROJECT_DIR$/image/media/css/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,11 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/image/img/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="495" column="62" lean-forward="false" selection-start-line="495" selection-start-column="62" selection-end-line="495" selection-end-column="62" />
+            <state relative-caret-position="410">
+              <caret line="488" column="8" lean-forward="true" selection-start-line="488" selection-start-column="8" selection-end-line="488" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -84,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image/media/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="470">
@@ -195,8 +160,8 @@
         <option value="$PROJECT_DIR$/image/img/views.py" />
         <option value="$PROJECT_DIR$/image/image/settings.py" />
         <option value="$PROJECT_DIR$/image/img/templates/imgupload.html" />
-        <option value="$PROJECT_DIR$/image/img/templates/index.html" />
         <option value="$PROJECT_DIR$/image/media/css/style.css" />
+        <option value="$PROJECT_DIR$/image/img/templates/index.html" />
       </list>
     </option>
   </component>
@@ -626,9 +591,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1851" height="865" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25815368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25815368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -982,6 +947,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/image/media/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="2230" column="22" lean-forward="false" selection-start-line="2230" selection-start-column="22" selection-end-line="2230" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/image/img/templates/imgupload.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -992,16 +965,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/image/img/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="495" column="62" lean-forward="false" selection-start-line="495" selection-start-column="62" selection-end-line="495" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/media/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="2230" column="22" lean-forward="false" selection-start-line="2230" selection-start-column="22" selection-end-line="2230" selection-end-column="22" />
+        <state relative-caret-position="410">
+          <caret line="488" column="8" lean-forward="true" selection-start-line="488" selection-start-column="8" selection-end-line="488" selection-end-column="8" />
           <folding />
         </state>
       </provider>
