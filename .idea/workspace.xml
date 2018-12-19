@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d12c977a-c355-4586-be4f-8499462b183d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/image/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/image/image/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/image/img/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/image/img/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/media/images/BG.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/image/media/images/BG.JPG" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +18,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/image/img/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="579">
+              <caret line="431" column="30" lean-forward="true" selection-start-line="431" selection-start-column="30" selection-end-line="431" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -33,13 +39,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image/img/urls.py">
+        <entry file="file://$PROJECT_DIR$/image/media/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="262">
+              <caret line="696" column="3" selection-start-line="696" selection-start-column="1" selection-end-line="696" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -64,15 +67,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image/image/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+            <state relative-caret-position="406">
+              <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image/media/images/bg.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -111,8 +109,10 @@
       <find>index.php</find>
       <find>ser.</find>
       <find>ser.jpg</find>
-      <find>favicon</find>
       <find>ser</find>
+      <find>favicon</find>
+      <find>alt</find>
+      <find>my</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,6 +127,7 @@
         <option value="$PROJECT_DIR$/image/img/views.py" />
         <option value="$PROJECT_DIR$/image/img/templates/imgupload.html" />
         <option value="$PROJECT_DIR$/image/media/css/style.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/image/image/settings.py" />
         <option value="$PROJECT_DIR$/image/img/templates/index.html" />
       </list>
@@ -187,6 +188,13 @@
               <item name="image" type="462c0819:PsiDirectoryNode" />
               <item name="image" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="image" type="b2602c69:ProjectViewProjectNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="image" type="b2602c69:ProjectViewProjectNode" />
@@ -295,12 +303,12 @@
       <option name="presentableId" value="Default" />
       <updated>1544237947838</updated>
       <workItem from="1545227150686" duration="22000" />
-      <workItem from="1545227208188" duration="1378000" />
+      <workItem from="1545227208188" duration="1982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1400000" />
+    <option name="totallyTimeSpent" value="2004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="955" extended-state="6" />
@@ -441,13 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image/media/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33450">
-          <caret line="2230" column="22" selection-start-line="2230" selection-start-column="22" selection-end-line="2230" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image/media/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -481,13 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image/image/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image/media/images/bg.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -516,10 +510,31 @@
     <entry file="file://$PROJECT_DIR$/image/media/images/biankuang.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/image/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/media/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="696" column="3" selection-start-line="696" selection-start-column="1" selection-end-line="696" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/image/img/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="579">
+          <caret line="431" column="30" lean-forward="true" selection-start-line="431" selection-start-column="30" selection-end-line="431" selection-end-column="30" />
         </state>
       </provider>
     </entry>
